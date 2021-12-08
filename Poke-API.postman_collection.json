@@ -1,0 +1,364 @@
+{
+	"info": {
+		"_postman_id": "c05b6822-40a1-42fe-95ea-2fe778907de9",
+		"name": "Poke-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pokémon",
+			"item": [
+				{
+					"name": "All abilities",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"strictSSL": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/ability/?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"ability",
+								""
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular ability",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/ability/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"ability",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "All characteristics",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"strictSSL": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/characteristic/?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"characteristic",
+								""
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular characteristic",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/characteristic/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"characteristic",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "All genders",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/gender?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"gender"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular Gender",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/gender/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"gender",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "All pokemons",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"strictSSL": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/pokemon/?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"pokemon",
+								""
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular pokemon",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/pokemon/{{pokemon_id}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"pokemon",
+										"{{pokemon_id}}"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "All stats",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"strictSSL": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/stat/?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"stat",
+								""
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular stat",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/stat/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"stat",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						]
+					}
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "id",
+			"value": "1"
+		}
+	]
+}
