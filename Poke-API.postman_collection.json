@@ -391,7 +391,69 @@
 					]
 				},
 				{
-					"name": "All pokemons",
+					"name": "Pokeathlon Stats",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/pokeathlon-stat?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"pokeathlon-stat"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular pokeathlon-stat",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/pokeathlon-stat/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"pokeathlon-stat",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Pokemons",
 					"event": [
 						{
 							"listen": "test",
@@ -457,7 +519,125 @@
 					]
 				},
 				{
-					"name": "All stats",
+					"name": "Pokemon Location Areas",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"strictSSL": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/pokemon/{{pokemon_id}}/encounters",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"pokemon",
+								"{{pokemon_id}}",
+								"encounters"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular pokemon",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/pokemon/{{pokemon_id}}/encounters",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"pokemon",
+										"{{pokemon_id}}",
+										"encounters"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Pokemon Colors",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/pokemon-color?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"pokemon-color"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular pokemon-color",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/pokemon-color/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"pokemon-color",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Stats",
 					"event": [
 						{
 							"listen": "test",
