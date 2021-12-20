@@ -322,6 +322,164 @@
 			]
 		},
 		{
+			"name": "Encounters",
+			"item": [
+				{
+					"name": "Encounter Methods",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/encounter-method?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"encounter-method"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular encounter-method",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/encounter-method/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"encounter-method",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Encounter Conditions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/encounter-condition?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"encounter-condition"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular encounter-condition",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/encounter-condition/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"encounter-condition",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Encounter Condition Values",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/encounter-condition-value?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"encounter-condition-value"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular encounter-condition-value",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/encounter-condition-value/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"encounter-condition-value",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Pokémon",
 			"item": [
 				{
