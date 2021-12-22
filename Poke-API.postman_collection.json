@@ -796,6 +796,266 @@
 			]
 		},
 		{
+			"name": "Items",
+			"item": [
+				{
+					"name": "Item",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/item?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"item"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular item",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/item/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"item",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Item Attributes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/item-attribute?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"item-attribute"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular item-attribute",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/item-attribute/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"item-attribute",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Item Categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/item-category?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"item-category"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular item-category",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/item-category/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"item-category",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Item Fling Effects",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/item-fling-effect?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"item-fling-effect"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular item-fling-effect",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/item-fling-effect/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"item-fling-effect",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Item Pockets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/item-pocket?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"item-pocket"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular item-pocket",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/item-pocket/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"item-pocket",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Pokémon",
 			"item": [
 				{
