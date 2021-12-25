@@ -1056,6 +1056,215 @@
 			]
 		},
 		{
+			"name": "Locations",
+			"item": [
+				{
+					"name": "Locations",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/location?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"location"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular location",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/location/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"location",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Location Areas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/location-area?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"location-area"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular location-area",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/location-area/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"location-area",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Pal Park Areas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/pal-park-area?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"pal-park-area"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular pal-park-area",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/pal-park-area/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"pal-park-area",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Regions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/region?limit=0&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"region"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "Number of results to load"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Offset value (skip from start)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Fetching particular region",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/region/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"region",
+										"1"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Pokémon",
 			"item": [
 				{
